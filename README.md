@@ -8,15 +8,15 @@
     medium(6-letters word) and hard(8-letters word).
 ---
 
-![rules](rules.jpg)
+![rules](screenshots/rules.jpg)
 
-![choose_level](choose_level.jpg)
+![choose_level](screenshots/choose_level.jpg)
 
-![game_process](game_process.jpg)
+![game_process](screenshots/game_process.jpg)
 
-![game_process](game_process_2.jpg)
+![game_process](screenshots/game_process_2.jpg)
 
-![user wins](win.jpg)
+![user wins](screenshots/win.jpg)
 
 
 
