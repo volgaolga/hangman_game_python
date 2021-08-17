@@ -197,7 +197,7 @@ ____
 
 def get_letter_guess(word, shown_word, correct_letters, wrong_letters):
     """the player try to guess correct letter"""
-    def _map_letters(word, shown_word, letter):
+    def _map_letters():
         for i in range(len(word)):
             if word[i] == letter:
                 shown_word[i] = letter
@@ -230,7 +230,7 @@ def get_letter_guess(word, shown_word, correct_letters, wrong_letters):
             time.sleep(SLEEP)
             get_clear_screen()
             correct_letters.append(letter)
-            shown_word = _map_letters(word, shown_word, letter)
+            shown_word = _map_letters()
             return shown_word, correct_letters, wrong_letters
 
 
